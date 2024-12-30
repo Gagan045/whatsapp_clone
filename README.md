@@ -35,6 +35,9 @@ Responsive UI: Built with React for seamless performance on various devices.
 
 ### Learn More
 React Documentation: https://reactjs.org/
+
 Create React App Documentation: https://facebook.github.io/create-react-app/docs/getting-started
+
 Agora.io Documentation: https://docs.agora.io/en
+
 Firebase Documentation: https://firebase.google.com/docs

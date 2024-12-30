@@ -1,80 +1,40 @@
-# Whatsapp_Clone
-This application is developed using react,firebase,node and agora.io
-## React for frount end
-## Firestore database for storing the chats and users info.
-## Agora.io used for voice and vedio call feature
+# WhatsApp Clone
+This application replicates the core functionality of WhatsApp, using modern technologies like React, Firebase, Node.js, and Agora.io.
 
-# Getting Started with Create React App
+## Technologies Used
+React: For building the frontend user interface.
+Firebase Firestore: To store chats and user information.
+Node.js: For backend server logic and generating temporary tokens for video calls.
+Agora.io: To enable voice and video call features.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
+This project was bootstrapped with Create React App.
+
+### Prerequisites
+Make sure you have the following installed:
+Node.js (v14 or later)
+npm (v6 or later)
 
 ## Available Scripts
 
-In the project directory, you can run:
+## Run the Application
+### To start the application in development mode:
+npm start
+This will launch the app at http://localhost:3000. The page reloads whenever changes are made, and lint errors will be displayed in the console if any occur.
 
-### `npm start`
+### Run the Server
+node server.js
+The server generates temporary tokens for Agora video calls. Start the server with:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+Chat Functionality: Real-time chat powered by Firestore.
+Voice and Video Calls: Powered by Agora.io with temporary tokens generated via a Node.js backend.
+Responsive UI: Built with React for seamless performance on various devices.
 
-### `run the server`
-comand : node server.js 
-This will run the server which will generate the temporary tokens for vedio calls.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Learn More
+React Documentation: https://reactjs.org/
+Create React App Documentation: https://facebook.github.io/create-react-app/docs/getting-started
+Agora.io Documentation: https://docs.agora.io/en
+Firebase Documentation: https://firebase.google.com/docs

@@ -1,3 +1,9 @@
+# Whatsapp_Clone
+This application is developed using react,firebase,node and agora.io
+## React for frount end
+## Firestore database for storing the chats and users info.
+## Agora.io used for voice and vedio call feature
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -13,6 +19,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `run the server`
+comand : node server.js 
+This will run the server which will generate the temporary tokens for vedio calls.
 
 ### `npm test`
 

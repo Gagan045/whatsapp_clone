@@ -19,7 +19,7 @@ const VideoCall = ({ channelName, callId, onEndCall, callerId, calleeId }) => {
 
     const fetchToken = async () => {
       try {
-        const response = await axios.get('http://localhost:3001/generate-token', {
+        const response = await axios.get(process.env.AGORA_TOKEN_GENERATE_LINK, {
           params: { channelName, uid: 0 }, // Use 0 for automatic UID assignment
         });
         setToken(response.data.token);

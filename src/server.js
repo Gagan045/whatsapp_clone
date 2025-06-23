@@ -10,8 +10,8 @@ const port = process.env.PORT || 3001;
 app.use(cors()); // Allow cross-origin requests
 
 // Agora credentials (make sure to replace these with your actual credentials)
-const APP_ID =process.env.REACT_APP_AGORA_APP_ID;
-const APP_CERTIFICATE = 'Your agora app certificate';
+const APP_ID =process.env.REACT_APP_AGORA_APP_ID; //Put your Agora app Id.
+const APP_CERTIFICATE = process.env.REACT_APP_AGORA_APP_CERTIFICATE; //Put the agora app certificate.
 
 app.get('/generate-token', (req, res) => {
   const channelName = req.query.channelName;
